@@ -5,7 +5,7 @@ app = Flask(__name__)
 api = Api(app)
 
 names = {"ando" : {"age" : 26, "gender" : "male"},
-         "bob" : {"age" : 26, "gender" : "male"}
+         "bob" : {"age" : 50, "gender" : "male"}
          }
 
 class HelloWorld(Resource):
